@@ -1,0 +1,138 @@
+/* Define general styles for the HTML element */
+
+html{
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#aad4cf;
+}
+
+.section{
+    width:70%;
+    margin-top:0;
+    margin-left: auto;
+    margin-right: auto;
+    background:#d4e9e7;
+}
+
+.body{
+    margin-top:0;
+    padding-top: 0;
+}
+/* Style for the header element */
+
+header{
+    position:relative;
+}
+/* Make the header image take 100% width */
+
+header img{
+    width:100%;
+}
+/* position the title on top of the image */
+
+h1{
+    position:absolute;
+    width:100%;
+    top:50%;
+    text-align:center;
+    font-size:3rem;
+    color:white;
+}
+
+
+nav ul{
+    margin-top: 0;
+    text-align:center;
+}
+
+nav li{
+
+    display:inline-block; /* Display list items in a horizontal line */
+    width:30%;
+    border-right:1px solid #111;
+    padding: 10px 0;
+}
+/* Removing the last item border */
+nav li:last-of-type{
+    border:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:1.4rem;
+    font-weight:bold;
+}
+
+
+main{
+    padding:0 10px;
+}
+
+h2{
+    font-size:2rem;
+}
+
+section p{
+    line-height:1.5;
+}
+
+section img{
+    float:left;
+    margin:0 1rem 1rem 0;
+    width:25%;
+}
+
+h3{
+    font-size:1.5rem;
+}
+
+section ul{
+    list-style:disc;
+    margin-left:1rem;
+}
+
+.form{
+    border:1px solid black;
+    padding:2rem 1rem 1rem;
+    font-size:1.2rem;
+}
+
+.text label, .text input, .text textarea{
+    display:block; /* Make elements a block to stack them vertically */
+    width:100%; /* Expand elements to fill their container horizontally */
+    font-size:1.2rem;
+}
+
+.text label{
+    margin-bottom:10px;
+}
+
+.text input{
+    margin-bottom:1.4rem;
+}
+
+.text textarea{
+    height:6em;
+}
+
+h4{
+    font-size:1.5rem;
+    margin:1em 0;
+}
+
+.radio-buttons{
+    margin-bottom:1rem;
+}
+
+#submit{
+    background:000;
+    padding:12px;
+    font-size:12px;
+    border:1px solid black;
+}
+
+footer{
+    text-align:right;
+    padding: 2rem;
+}
